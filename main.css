@@ -1,0 +1,165 @@
+.thanh-menu {
+	min-height: 60px;
+	width: 100%;
+	line-height: 60px;
+	color:antiquewhite;
+	left: 0;
+	top: 0;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.nav ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #7F7F7F;
+}
+.icon a {
+	padding: 10px 10px;
+	text-decoration: none;
+	color:#B79553;
+}
+.item {
+	position: relative;
+}
+.banner-text{
+	width: 30%;
+	text-align: left;
+	color: antiquegray;
+	position: absolute;
+	top: 25%;
+	left: 10%; 
+}
+.caption h1{
+	font-size: 70px; 
+	font-weight: 900;
+	margin-bottom: -50px;
+	color: #634324;
+}
+.caption h2 {
+	font-size: 40px;
+	margin-bottom: 40px;
+	color: antiquewhite;
+	font-weight: 100;
+}
+.button-shopnow {
+	padding: 10px 15px;
+	border: 3px solid #634324;
+	color: #A57D51;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 30px;
+	background-color: transparent;
+}
+
+.gach-chan {
+	border-bottom: 3px solid darkred;
+	font-size: 30px;
+}
+.products {
+	font-weight: bold;
+	font-size: 17px;
+}
+.cost{
+	color: darkred;
+	font-weight: bold;
+}
+
+.vien-white {
+	width: 100%;
+	text-align: center;
+	border: 1px solid white;
+	padding: 30px;
+}
+.vien-white a{
+	color: darkred;
+	text-decoration: none;
+}
+.vien-white a:hover {
+	color: white;
+}
+.text-red {
+	color: darkred;
+}
+#contact {
+	width: 100%;
+	min-height: 500px;
+	background-image: url( "../images/Banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+.box {
+	padding: 40px;
+	box-shadow: 5px 5px 5px gray;
+	border: 1px solid #B8B8B8;
+}
+.form-control {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.t1 {
+	color: darkred;
+	font-weight: 5;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.t2 {
+	color: darkred;
+	font-weight: 5;
+	text-align: center;
+	margin-top: 0px;
+}
+#new .vien {
+	width: 100%;
+	border: 1px solid darkred;
+	padding: 15px;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden; 
+}
+#new .social {
+	position: absolute;
+	width: 80%;
+	height: 40px;
+	left: 10%;
+	top: -20%; 
+	display:flex;
+	justify-content: space-around;
+	transition: all 1s;
+}
+#new .social a {
+	height: 40px;
+	width: 40px;
+	background-color: darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	text-decoration: none;
+	color: white;
+}
+#new .social a:hover {
+	background-color: white;
+	color: darkred;
+}
+#new .vien:hover .social {
+	top: 40%;	}
+#product {
+	width: 100%;
+	min-height: 500px;
+	background-image: url("../images/bg2.png");
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
